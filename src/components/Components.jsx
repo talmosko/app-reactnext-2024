@@ -28,17 +28,15 @@ export function WithWrapper() {
   );
 }
 
-export function WithChildren({ form, heavyComponent }) {
-  const [state, setState] = useState({});
-
+export function WithProps({ form, heavyComponent }) {
   return (
-    <FormContext.Provider value={[state, setState]}>
+    <ContextWrapper>
       <div className="space-y-4">
         {form}
         <hr className="border-gray-300" />
         {heavyComponent}
       </div>
-    </FormContext.Provider>
+    </ContextWrapper>
   );
 }
 function ContextWrapper({ children }) {

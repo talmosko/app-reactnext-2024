@@ -3,13 +3,13 @@ import Form from "./components/Form";
 import HeavyComponent from "./components/HeavyComponent";
 import RenderingSelection from "./components/RenderingSelection";
 import Card from "./components/Card";
-import { Heavy, WithChildren, WithWrapper } from "./components/Components";
+import { Heavy, WithProps, WithWrapper } from "./components/Components";
 
 const apps = {
   slow: <Heavy />,
   "surprise 1": <WithWrapper />,
   "surprise 2": (
-    <WithChildren form={<Form />} heavyComponent={<HeavyComponent />} />
+    <WithProps form={<Form />} heavyComponent={<HeavyComponent />} />
   ),
 };
 
