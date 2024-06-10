@@ -1,5 +1,5 @@
 const inputs = {
-  slow: "Slow",
+  slow: "Quick(?)",
   "surprise 1": "Surprise 1",
   "surprise 2": "Surprise 2",
 };
