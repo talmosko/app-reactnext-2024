@@ -1,8 +1,22 @@
-# React + Vite
+# Enhancing React Performance: Mastering Re-render Optimization
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo is a demo app for the talk [Enhancing React Performance: Mastering Re-render Optimization
+](https://www.react-next.com/events/enhancing-react-performance-mastering-re-render-optimization/), held at React Next 2024.
 
-Currently, two official plugins are available:
+This app is based on [React + Vite](https://vitejs.dev/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting Started
+```
+npm install
+npm run dev
+```
+Choose a rendering method from the radio buttons and see the magic happen. follow `App.jsx` and `components/Components.jsx` to see how the rendering is done.
+
+## Slides
+On `slides.pdf` you can find the slides for the talk.
+Also you can find the live version [here](https://slides-react-next2024.vercel.app/).
+The slides are designed with [sli.dev](https://sli.dev/).
+
+## Contact me
+Linkedin: [https://www.linkedin.com/in/tmosko](https://www.linkedin.com/in/tmosko)
+Website: [https://tmosko.com/hello](https://tmosko.com/hello)
